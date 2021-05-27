@@ -1,0 +1,79 @@
+.task-header {
+	margin-top: 3rem;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+}
+
+.tableDiv {
+	margin-top: 2rem;
+	height: 23rem;
+	overflow: auto;
+}
+
+.buttonModal{
+    display: inline;
+}
+
+.actionButton{
+    display: none;
+}
+
+
+@media screen and (min-width: 900px) {
+	.tableDiv {
+		margin-top: 3rem;
+		height: 30rem;
+		overflow: auto;
+	}
+
+    .buttonModal{
+        display: none;
+    }
+    
+    .actionButton{
+        display:inline;
+
+    }
+    
+}
+
+
+
+td {
+	max-width: 80px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.container {
+	margin-top: 3rem;
+}
+
+.taskInfo {
+	padding-top: 0.5rem;
+	display: flex;
+	justify-content: space;
+}
+
+.spanFinished {
+	font-size: 1rem;
+	padding: 0.2rem;
+	border-radius: 3px;
+	color: white;
+	font-weight: bold;
+}
+
+.spanStrong {
+	padding-left: 2rem;
+	font-weight: bold;
+}
+
+.description {
+	margin-top: 1rem;
+	padding: 0.3rem;
+	border: 2px solid;
+	border-radius: 5px;
+}

@@ -1,0 +1,31 @@
+.navDiv{
+    height: 5rem;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    padding-left: 2rem;
+}
+
+.logo{
+    height: 3rem;
+}
+
+.linkTasks{
+margin: 3rem;
+padding: 0.4rem;
+text-decoration: none;
+color: #fff;
+font-size: 1.5rem;
+border: #fff solid 2px;
+border-radius: 15px;
+}
+
+
+.linkTasks:hover{
+    margin: 3rem;
+    text-decoration: none;
+    color: #b3b3b3;
+    border: #b3b3b3 solid 2px;
+    transition: 300ms;
+    }
